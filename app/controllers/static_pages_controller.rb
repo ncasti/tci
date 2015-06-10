@@ -1,31 +1,28 @@
 class StaticPagesController < ApplicationController
-  def 1
+  def endtest
   end
 
-  def 2
+  def instruction
+  end
+  
+  def checklist
   end
 
-  def 3
+  def firstq
   end
 
-  def 4
+  def secondq
   end
 
-  def 5
+  def thirdq
   end
 
-  def 6
+  def extraq
+  end
+  
+  def feedback
   end
 
-  def 7
-  end
-
-  def 8
-  end
-
-  def 9
-  end
-
-  def 10
+  def finished
   end
 end
