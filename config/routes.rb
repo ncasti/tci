@@ -1,4 +1,24 @@
 Rails.application.routes.draw do
+  get 'static_pages/1'
+
+  get 'static_pages/2'
+
+  get 'static_pages/3'
+
+  get 'static_pages/4'
+
+  get 'static_pages/5'
+
+  get 'static_pages/6'
+
+  get 'static_pages/7'
+
+  get 'static_pages/8'
+
+  get 'static_pages/9'
+
+  get 'static_pages/10'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
