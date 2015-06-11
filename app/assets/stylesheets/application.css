@@ -72,6 +72,7 @@ section {
 	border-radius: 3px 3px 0 0;
 	height: 370px;
 	display:block;
+	outline:none;
 	box-sizing: border-box;
 
 }
@@ -87,12 +88,65 @@ footer {
 	text-align: center;
 }
 
+.imag {
+	width:320px;
+	height:240px;
+}
+
+.step {
+	display: table-cell;
+	height: 370px;
+	text-align: center;
+}
+
+.rule-container {
+	display: inline-block;
+	margin-top: 30px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+.rule{
+	position: relative;
+	top: -6px;
+	padding: 20px;
+	text-align: center;
+	width: 230px;
+	box-sizing: border-box;
+}
+
 #disabled {
 	background: white;
 	border: 3px solid #e6e6e6;
 	color: #ccc;
 }
 
+#rightbox {
+	width:300px;
+	float: right;
+	height: 250px;
+}
+
+#leftbox {
+	width:50%;
+	float: left;
+	height:250px;
+}
+
+
 #right {
-float: right;
+	float: right;
+}
+
+#left {
+	float: left;
+}
+
+audio {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 }

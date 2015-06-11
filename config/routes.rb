@@ -18,6 +18,8 @@ Rails.application.routes.draw do
   get 'done' => 'static_pages#finished'
 
   get 'static_pages/10'
+  
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,10 +1,22 @@
 <% provide(:next, "checklist") %>
 <% provide(:rb, "Next") %>
+<div class="step" style="width: 810px;">
 <h1>Pay attention to the following</h1>
 <p>Each question is timed differently.
-Your answers will be recorded and published on your certificate.
+Your answers will be recorded and published on your certificate.</p>
+
 <div class="rule-container">
-<%= audio_tag "audio.m4a", class: "audio-play" %>
-<p class="btn btn-primary audioButton">Play</p>
+	<div class="rule">
+		<img src="http://testcenter.duolingo.com/images/testcenter/test/sample_icon_time.svg">
+		<p>After you hear the question, you will have 20 seconds to prepare and 60 seconds to answer.</p>
+	</div>
+	<div class="rule>">
+		<img src="http://testcenter.duolingo.com/images/testcenter/test/sample_icon_video.svg">
+		<p>Your answers will be recorded and will appear on your certificate. Make sure you are well-dressed and have an appropriate background</p>
+	</div>
+	<div class="rule">
+		<img src="http://testcenter.duolingo.com/images/testcenter/test/sample_icon_review.svg">
+		<p>There are three questions in this section</p>
+	</div>
 </div>
-</p>
+</div>
