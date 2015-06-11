@@ -2,7 +2,13 @@
 <% provide(:rb, "Next") %>
 <h1>Extra Question</h1>
 <p>Listen to the recording:</p>
-<object id="nimbb" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="320" height="240" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-<param name="movie" value="http://player.nimbb.com/nimbb.swf?mode=record&simplepage=1&key=85eb1f0f64" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" />
-<embed name="nimbb" id="nimbb" src="http://player.nimbb.com/nimbb.swf?mode=record&simplepage=1&key=85eb1f0f64" width="320" height="240" allowScriptAccess="always" allowFullScreen="true" pluginspage="http://www.adobe.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
+<div id="leftbox">
+<audio controls>
+  <source src="/turismo.m4a" type="audio/mpeg">
+</audio>
+</div>
+<div id="rightbox">
+	<camera id='four' data-app-id='a-ac314730-f281-0132-1c35-22000a9e3691' data-sources='record' style='width:300px;height:240px;' data-pre-roll-length='20'></camera>
+</div>
+
 </object>
