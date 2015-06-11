@@ -5,10 +5,29 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
 </head>
 <body>
 
+<div class="container">
+
+<div class="carousel-warp">
+<section>
+
 <%= yield %>
+
+</section>
+</div>
+
+<footer>
+
+<form class="button_to" method="get" action="/<%= yield(:next) %>">
+	<input class="button" id="right" type="submit" value="<%= yield(:rb) %>">
+</form>
+
+</footer>
+
+</div>
 
 </body>
 </html>

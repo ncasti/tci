@@ -1,21 +1,21 @@
 Rails.application.routes.draw do
-  get 'static_pages/endtest'
+  root 'static_pages#endtest'
 
-  get 'static_pages/instruction'
+  get 'instructions' => 'static_pages#instruction'
 
-  get 'static_pages/checklist'
+  get 'checklist' => 'static_pages#checklist'
 
-  get 'static_pages/firstq'
+  get 'one' => 'static_pages#firstq'
 
-  get 'static_pages/secondq'
+  get 'two' => 'static_pages#secondq'
 
-  get 'static_pages/thirdq'
+  get 'three' => 'static_pages#thirdq'
 
-  get 'static_pages/extraq'
+  get 'four' => 'static_pages#extraq'
 
-  get 'static_pages/feedback'
+  get 'feedback' => 'static_pages#feedback'
 
-  get 'static_pages/finished'
+  get 'done' => 'static_pages#finished'
 
   get 'static_pages/10'
 

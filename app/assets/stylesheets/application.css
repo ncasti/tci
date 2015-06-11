@@ -13,3 +13,86 @@
  *= require_tree .
  *= require_self
  */
+
+ @font-face {
+        font-family: "MuseoSansRounded-300.otf";
+        src: url('MuseoSansRounded-300.otf') format("truetype");
+        font-family: "MuseoSansRounded-300.otf";
+        src: url('MuseoSansRounded-300.otf') format("truetype");
+    }
+
+body {
+	  font-family: "MuseoSansRounded-300";
+	  text-align: center;
+	  color: #a2a2a2;
+	  background-color: #f3f3f3;
+}
+
+h1 {
+	color: #6d6d6d;
+}
+
+.button {
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	webkit-font-smoothing: antialiased;
+	font-weight: 700;
+	text-align: center;
+	white-space: nowrap;
+	background: #ffc200;
+	color: white;
+	border: 0px;
+	font-size:16px;
+	height: 40px;
+	min-width: 150px;
+	display:block;
+}
+
+.container {
+	height: 560px;
+	width: 900px;
+	padding:50px 45px;
+	background: white;
+	border-radius: 4px;
+	margin: 0 auto;
+	display: block;
+	box-sizing: border-box;
+	box-shadow: 0 0 15px #e6e6e6;
+
+}
+
+.carousel-warp {
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+
+section {
+	border-radius: 3px 3px 0 0;
+	height: 370px;
+	display:block;
+	box-sizing: border-box;
+
+}
+
+
+footer {
+	box-sizing: border-box;
+	display: block;
+	border-radius: 0 0 3px 3px;
+	border-top: 3px solid #e6e6e6;
+	min-height: 90px;
+	padding-top:45px;
+	text-align: center;
+}
+
+#disabled {
+	background: white;
+	border: 3px solid #e6e6e6;
+	color: #ccc;
+}
+
+#right {
+float: right;
+}

@@ -1,2 +1,10 @@
-<h1>StaticPages#2</h1>
-<p>Find me in app/views/static_pages/2.html.erb</p>
+<% provide(:next, "checklist") %>
+<% provide(:rb, "Next") %>
+<h1>Pay attention to the following</h1>
+<p>Each question is timed differently.
+Your answers will be recorded and published on your certificate.
+<div class="rule-container">
+<%= audio_tag "audio.m4a", class: "audio-play" %>
+<p class="btn btn-primary audioButton">Play</p>
+</div>
+</p>
