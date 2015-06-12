@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   root 'static_pages#endtest'
 
   get 'instructions' => 'static_pages#instruction'
@@ -17,8 +18,13 @@ Rails.application.routes.draw do
 
   get 'done' => 'static_pages#finished'
 
-  get 'static_pages/10'
+  get 'preparation' => 'static_pages#sample'
+
+  get 'login' => 'sessions#new'
   
+  post 'login' => 'sessions#create'
+  
+  delete 'logout' => 'sessions#destroy'
   
 
   # The priority is based upon order of creation: first created -> highest priority.

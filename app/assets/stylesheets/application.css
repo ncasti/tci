@@ -88,6 +88,10 @@ footer {
 	text-align: center;
 }
 
+.topbox{
+
+}
+
 .imag {
 	width:320px;
 	height:240px;
@@ -103,17 +107,17 @@ footer {
 	display: inline-block;
 	margin-top: 30px;
 	box-sizing: border-box;
-	text-align: center;
 }
 
 
 
 .rule{
+	display: table-cell;
 	position: relative;
 	top: -6px;
 	padding: 20px;
-	text-align: center;
 	width: 230px;
+	text-align: center;
 	box-sizing: border-box;
 }
 
