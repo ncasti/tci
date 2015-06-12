@@ -1,4 +1,32 @@
 Rails.application.routes.draw do
+
+  root 'static_pages#endtest'
+
+  get 'instructions' => 'static_pages#instruction'
+
+  get 'checklist' => 'static_pages#checklist'
+
+  get 'one' => 'static_pages#firstq'
+
+  get 'two' => 'static_pages#secondq'
+
+  get 'three' => 'static_pages#thirdq'
+
+  get 'four' => 'static_pages#extraq'
+
+  get 'feedback' => 'static_pages#feedback'
+
+  get 'done' => 'static_pages#finished'
+
+  get 'preparation' => 'static_pages#sample'
+
+  get 'login' => 'sessions#new'
+  
+  post 'login' => 'sessions#create'
+  
+  delete 'logout' => 'sessions#destroy'
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
